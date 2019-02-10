@@ -30,6 +30,6 @@ Terminal, ruby, git
 
 Through prior knowledge, I realised there are a few edge cases here which I had to account for. I made sure to write down the edge cases I was aware of at the beginning so as not to miss anything.
 
-[Imgur](https://i.imgur.com/xy615P6.jpg)
+![Imgur](https://i.imgur.com/xy615P6.jpg)
 
-I also wanted to gain some learnings from my coding process here, I decided to record my coding session and uploaded it to [YouTube](https://www.youtube.com/watch?v=NK3IQhl71Zs&t=3s)
+I also wanted to gain some learnings from my coding process here, I decided to record my coding session and uploaded it to ![YouTube](https://www.youtube.com/watch?v=NK3IQhl71Zs&t=3s)
