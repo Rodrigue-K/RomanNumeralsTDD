@@ -1,7 +1,12 @@
 class RomanNumerals
 
   def self.romanise(number)
-    number == 2 ? "II" : "I"
+    converted = ""
+    while number >= 1
+      converted << "I"
+      number -= 1
+    end
+    converted
   end
 
 end
