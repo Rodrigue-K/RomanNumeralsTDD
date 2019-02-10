@@ -2,6 +2,11 @@ class RomanNumerals
 
   def self.romanise(number)
     converted = ""
+    if number >= 10
+      converted << "X"
+      number -= 10
+    end
+
     if number >= 5
       converted << "V"
       number -= 5
