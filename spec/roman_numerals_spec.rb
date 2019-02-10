@@ -1,15 +1,13 @@
 require "./src/roman_numerals"
 
 describe RomanNumerals do
-  it "Should convert 1 to I" do
-    expect(RomanNumerals.romanise(1)).to eq("I")
-  end
-
-  it "Should convert 2 to II" do
-    expect(RomanNumerals.romanise(2)).to eq("II")
-  end
-
-  it "Should convert 3 to III" do
-    expect(RomanNumerals.romanise(3)).to eq("III")
+  {
+    1 => "I",
+    2 => "II",
+    3 => "III"
+  }.each do |arabic, roman|
+    it "Should convert #{arabic} to #{roman}" do
+      expect(RomanNumerals.romanise(arabic)).to eq(roman)
+    end
   end
 end
