@@ -7,6 +7,7 @@ describe RomanNumerals do
     3 => "III",
     5 => "V",
     6 => "VI",
+    9 => "IX",
     10 => "X"
   }.each do |arabic, roman|
     it "Should convert #{arabic} to #{roman}" do
