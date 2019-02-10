@@ -2,20 +2,16 @@ class RomanNumerals
 
   def self.romanise(number)
     converted = ""
-    if number >= 10
-      converted << "X"
-      number -= 10
+    {
+      10 => "X",
+      5 => "V",
+      1 => "I"
+    }.each do |arabic, roman|
+    while number >= arabic
+      converted << roman
+      number -= arabic
     end
-
-    if number >= 5
-      converted << "V"
-      number -= 5
-    end
-
-    while number >= 1
-      converted << "I"
-      number -= 1
-    end
-    converted
   end
+  converted
+end
 end
