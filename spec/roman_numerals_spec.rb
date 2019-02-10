@@ -12,6 +12,7 @@ describe RomanNumerals do
     10 => 'X',
     14 => 'XIV',
     19 => 'XIX',
+    30 => 'XXX',
     50 => 'L',
     100 => 'M',
     500 => 'C',
