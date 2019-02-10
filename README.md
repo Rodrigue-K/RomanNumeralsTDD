@@ -32,4 +32,4 @@ Through prior knowledge, I realised there are a few edge cases here which I had 
 
 ![Imgur](https://i.imgur.com/xy615P6.jpg)
 
-I also wanted to gain some learnings from my coding process here, I decided to record my coding session and uploaded it to ![YouTube](https://www.youtube.com/watch?v=NK3IQhl71Zs&t=3s)
+I also wanted to gain some learnings from my coding process here, I decided to record my coding session and uploaded it to [YouTube](https://www.youtube.com/watch?v=NK3IQhl71Zs&t=3s)
