@@ -14,9 +14,9 @@ describe RomanNumerals do
     19 => 'XIX',
     30 => 'XXX',
     50 => 'L',
-    100 => 'M',
-    500 => 'C',
-    1000 => 'D'
+    100 => 'C',
+    500 => 'D',
+    1000 => 'M'
   }.each do |arabic, roman|
     it "Should convert #{arabic} to #{roman}" do
       expect(RomanNumerals.romanise(arabic)).to eq(roman)
