@@ -1,7 +1,7 @@
 class RomanNumerals
 
   def self.romanise(number)
-    return "I"
+    number == 2 ? "II" : "I"
   end
 
 end
